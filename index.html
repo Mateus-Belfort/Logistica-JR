@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Keania+One&family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,700;1,900&display=swap" rel="stylesheet">
+  
+  <link rel="stylesheet" href="./assets/style.css">
+  <title>JR EXPRESS</title>
+</head>
+<body>
+  <header>
+    <nav>
+      <img src="./assets/img/logo.jpg" class="logo" alt="LOGO JR Express, caminhão preto em um emblema com asas e o nome jr express abaixo">
+      <h1 class="title">JR EXPRESS</h1>
+      <img src="./assets/img/logo.jpg" class="logo" alt="LOGO JR Express, caminhão preto em um emblema com asas e o nome jr express abaixo">
+    </nav>
+  </header>
+  <div class="container">
+    <div class="card">
+      <h2>ARRANCADA</h2>
+      <label for="valorA">Distância em Kilometros</label>
+      <input type="text" id="valorA" class="input">
+      <button class="btn" onclick="arrancada()">CALCULAR</button>
+    </div>
+
+    <div class="card">
+      <h2>DESLOCAMENTO</h2>
+      <label for="valorB">Distância em Kilometros</label>
+      <input type="text" id="valorB" class="input">
+      <button class="btn" onclick="desloca()">CALCULAR</button>
+    </div>    
+
+  </div>
+
+
+  <script src="./assets/index.js"></script>
+</body>
+</html>
